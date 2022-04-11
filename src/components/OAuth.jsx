@@ -8,6 +8,7 @@ import googleIcon from '../assets/svg/googleIcon.svg';
 function OAuth() {
   const navigate = useNavigate();
   const location = useLocation();
+
   const onGoogleClick = async () => {
     try {
       const auth = getAuth();
@@ -33,7 +34,7 @@ function OAuth() {
 
   return (
     <div className='socialLogin'>
-      <p>Sign {location.pathname === '/sign-up' ? 'up' : 'in'}</p>
+      <p>Sign {location.pathname === '/sign-up' ? 'up' : 'in'} with</p>
       <button className='socialIconDiv' onClick={onGoogleClick}>
         <img className='socialIconImg' src={googleIcon} alt='google' />
       </button>
