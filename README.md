@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+House Marketplace
+A full-stack real estate listing platform built with React and Firebase. Users can browse, create, edit, and delete property listings for rent or sale. This project was developed as part of my journey transitioning into tech, focusing on frontend development and integrating backend services.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Features
+User Authentication: Sign up and log in using email/password.
 
-## Available Scripts
+Listing Management: Create, edit, and delete property listings.
 
-In the project directory, you can run:
+Image Uploads: Upload property images with Firebase Storage.
 
-### `npm start`
+Geolocation: Automatically fetch coordinates using Google Geocoding API.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Responsive Design: Mobile-friendly interface for all users.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Technologies Used
+Frontend: React, React Router, Tailwind CSS
 
-### `npm test`
+Backend: Firebase Authentication, Firestore, Firebase Storage
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+APIs: Google Geocoding API
 
-### `npm run build`
+Deployment: Vercel
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Learning Highlights
+Implemented Firebase Authentication for secure user login and registration.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Utilized Firestore for real-time database operations.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Integrated Google Geocoding API to convert addresses into geographic coordinates.
 
-### `npm run eject`
+Managed image uploads and storage with Firebase Storage.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Designed a responsive UI using Tailwind CSS.
